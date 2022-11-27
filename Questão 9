@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main (){
+    float salarioF, venda, total;
+    char nome[15];
+    printf ("Insira seu nome:\n ");
+    scanf ("%s", &nome);
+    printf ("Insira seu salario:\n ");
+    scanf ("%f", &salarioF);
+    printf ("Por ultimo, insira seu total de vendas:\n ");
+    scanf ("%f", &venda);
+    total = (venda * 0.15) + salarioF;
+    printf ("Seu salario total eh de %.2f", total);
+
+
+}
