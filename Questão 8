@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main (){
+    int a, b, c, d, x, y, z;
+    printf ("Insira o valor de A e B:\n ");
+    scanf ("%d%d", &a, &b);
+    printf ("Insira o valor de C e D:\n ");
+    scanf ("%d%d", &c, &d);
+    x = a * b;
+    y = c * d;
+    z = x - y;
+    printf ("DIFERENCA = (%d * %d) - (%d * %d)\n", a, b, c, d);
+    printf ("DIFERENCA = %d", z);
+
+
+}
