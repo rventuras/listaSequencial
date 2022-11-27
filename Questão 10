@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+int y[2] ,x[2],i;
+float resultado;
+for ( i = 0; i < 2; i++)
+{
+    printf("Insira o valor de x %d :");
+    scanf("%d",&x[i]);
+    printf("Insira o valor de y %d :");
+    scanf("%d",&y[i]);
+}
+resultado = sqrt(pow(x[1]-x[0],2)+pow(y[1]-y[0],2));
+printf("A distancia eh de %.2f", resultado);
+}
