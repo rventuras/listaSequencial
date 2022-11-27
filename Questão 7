@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main (){
+    int a, b, PROD;
+    printf ("Insira o valor de A e B: ");
+    scanf ("%d%d", &a, &b);
+    PROD = a * b;
+    printf ("PROD = %d", PROD);
+    
+
+}
